@@ -1,5 +1,6 @@
 ## PicGo私有化图床插件
 
+
 清明三天假, 完成了一个PicGo小插件, 可以将图片直接传到私有图床, 效果如图所示
 
 ![picgo插件](https://cdn.fangyuanxiaozhan.com/assets/1649143224074DD5Z0X0Q.png)
@@ -30,15 +31,34 @@
 
 ## 如何配置
 
-- 首先安装 PicGo私有化图床插件
+- 1. 首先安装 PicGo私有化图床插件
 
-- 打开配置界面
+从github获得代码
 
-![](https://cdn.fangyuanxiaozhan.com/assets/1649144135967d1TsRH6x.png)
+```
+git clone --depth=1 https://github.com/zhaoolee/pi-picgo.git
 
-- 输入三条必要信息, 并确定(三条必要信息,可通过往个人服务器部署EasyTypora 获得)
+cd pi-picgo
+npm i
+npm run build
+```
 
-![](https://cdn.fangyuanxiaozhan.com/assets/1649144233519FpAb5r4E.png)
+加载插件
+
+![加载插件](https://cdn.fangyuanxiaozhan.com/assets/1649145305107SdxG5jRi.gif)
+
+- 2. 打开配置界面
+
+![打开配置界面](https://cdn.fangyuanxiaozhan.com/assets/1649144135967d1TsRH6x.png)
+
+- 3. 输入三条必要信息, 并确定(三条必要信息,可通过往个人服务器部署EasyTypora 获得)
+
+![输入三条必要信息](https://cdn.fangyuanxiaozhan.com/assets/1649144233519FpAb5r4E.png)
+
+
+- 4. 选择默认图床为pi-picgo
+
+![选择默认图床为pi-picgo](https://cdn.fangyuanxiaozhan.com/assets/1649145380603GMSF6wjT.png)
 
 
 配置完成!
@@ -55,6 +75,6 @@
 《EasyTypora》开源地址  https://github.com/zhaoolee/EasyTypora
 
 
-
+《PicGo私有化图床插件》开源地址 https://github.com/zhaoolee/pi-picgo
 
 
