@@ -1,0 +1,60 @@
+## PicGo私有化图床插件
+
+清明三天假, 完成了一个PicGo小插件, 可以将图片直接传到私有图床, 效果如图所示
+
+![picgo插件](https://cdn.fangyuanxiaozhan.com/assets/1649143224074DD5Z0X0Q.png)
+
+支持拖拽到picgo界面, picgo图标, 以及剪贴板上传
+
+![支持各种形式上传](https://cdn.fangyuanxiaozhan.com/assets/1649143669492nxQdt25e.gif)
+
+获得返回的图片链接均为自建图床的域名
+
+```
+![](https://cdn.fangyuanxiaozhan.com/assets/1649143432086304QC157.jpeg)
+
+![](https://cdn.fangyuanxiaozhan.com/assets/1649143420392RYBx4ZkW.jpeg)
+
+![](https://cdn.fangyuanxiaozhan.com/assets/1649143411384pM5bKTCd.jpeg)
+```
+
+![](https://cdn.fangyuanxiaozhan.com/assets/1649143432086304QC157.jpeg)
+
+![](https://cdn.fangyuanxiaozhan.com/assets/1649143420392RYBx4ZkW.jpeg)
+
+![](https://cdn.fangyuanxiaozhan.com/assets/1649143411384pM5bKTCd.jpeg)
+
+服务端图床程序源自我以前的一个开源项目EasyTypora ,开源地址 : https://github.com/zhaoolee/EasyTypora
+
+
+
+## 如何配置
+
+- 首先安装 PicGo私有化图床插件
+
+- 打开配置界面
+
+![](https://cdn.fangyuanxiaozhan.com/assets/1649144135967d1TsRH6x.png)
+
+- 输入三条必要信息, 并确定(三条必要信息,可通过往个人服务器部署EasyTypora 获得)
+
+![](https://cdn.fangyuanxiaozhan.com/assets/1649144233519FpAb5r4E.png)
+
+
+配置完成!
+
+
+
+## 未来的计划
+
+为EasyTypora创建Docekr版本(更新到EasyTypora), 并提供部署到K8s树莓派集群的教程(更新到树莓派不吃灰), 配合内网穿透提供稳定的大容量公网图床服务!
+
+
+《树莓派不吃灰》开源地址 https://github.com/zhaoolee/pi
+
+《EasyTypora》开源地址  https://github.com/zhaoolee/EasyTypora
+
+
+
+
+
